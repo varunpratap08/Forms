@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personel Details</legend>
+        
+        <br>
+        <div>
+        <lable for="Firstname">Firstname</lable>
+            <input type="text" name="Firstname"/><br/>
+           <br/> <lable for="Middlename">Middlename:</lable>
+            <input type="text" name="Middlename"/><br/>
+           <br/> <lable for="Lastname">Lastname:</lable>
+            <input type="text" name="Lastname"/><br/>
+        </div>
+       <br/>
+       <div>
+       <lable>Course :</lable>
+     <select>
+        <option name="Course"> Course </option>
+        <option>BCA</option>
+        <option>BBA</option>
+        <option>B.Tech</option>
+        <option>MBA</option>
+        <option>MCA</option>
+        <option>M.Tech</option>
+       </select> <br/>
+    </div>
+    <br>
+    <div>
+        <lable for="Gender">Gender :</lable><br>
+        <input type="radio" name="Gender">
+        <lable>Male</lable><br>
+        <input type="radio" name="Gender">
+        <lable>FEMALE</lable><br>
+        <input type="radio" name="Gender">
+        <lable>OTHER</lable><br>
+    </div>
+    <div>
+        <lable>DOB</lable>
+        <input type="datetime-local">
+    </div>
+   <div>
+    <lable>Phone :</lable>
+   <button type="disable">+91</button> <input type="tel" minlength="10" maxlength="13">
+   </div>
+   <div>
+    <lable>Address</lable><br>
+    <textarea name="Address" id="Address" cols="50" rows="10"></textarea>
+   </div>
+   <div>
+    <lable for="email">Email :</lable>
+    <input type="email" name="email"/> <br/>
+   </div>
+   <br/>
+  <br> <div>
+    <lable for="Password">Password :</lable>
+    <input type="password" name="Password"/><br/>
+   </div>
+   <br/>
+   <br> <div>
+    <lable for="Repass">Re-type password :</lable>
+    <input type="password" name="Repass"/><br/>
+   </div>
+   <br/>
+<div>
+    <input type="checkbox" name="terms">
+    <lable for="terms">Agree to terms and conditions</lable>
+
+</div>
+<br>
+<div>
+    <lable for="file">Choose File</lable>
+    <input type="file" name="file">
+</div>
+<br>
+<lable for="color">Choose Color</lable>
+<input type="color" name="color">
+<br/>
+<br/><button type="reset">RESET</button>
+<button type="submit">Submit</button>
+   
+</fieldset>
+    </form>
+</body>
+</html>
